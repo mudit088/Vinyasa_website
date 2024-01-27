@@ -21,7 +21,7 @@ const Front = () => {
 
       <div className="absolute top-0 w-full h-screen flex flex-col  items-center text-white ">
         <div className='flex float-left justify-start pr-96 '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-40 " />
+        <img src="/IMG_4259 2.png" alt="Logo" className="h-40  absolute md:relative" />
 
         <ul className="hidden md:flex pl-64  items-center">
           {links.map(({ id, link }) => (
@@ -34,7 +34,7 @@ const Front = () => {
         </ul>
         </div>
 
-        <div onClick={() => setNav(!Nav)} className="cursor-pointer pl-36 p-4 pt-10 z-10 text-gray-500 md:hidden">
+        <div onClick={() => setNav(!Nav)} className="cursor-pointer pl-56 p-4 pt-10 z-10 text-gray-500 md:hidden">
           {Nav ? <FaTimes size={50} /> : <FaBars size={50} />}
         </div>
 
@@ -50,7 +50,7 @@ const Front = () => {
           </ul>
         )}
 
-        <div className="flex justify-center items-center font-semibold font-serif text-white m-3 md:m-0 pt-36 md:pt-36 md:text-4xl duration-500">
+        <div className="flex justify-center items-center font-semibold font-serif text-white m-10 md:m-0 pt-44 md:pt-36 md:text-4xl duration-500">
           <TypeAnimation
             sequence={[
               'Embark on a journey of creative exploration.',
@@ -74,7 +74,7 @@ const Front = () => {
           </button>
         </div>
 
-        <div className="flex justify-center items-center md:animate-bounce duration-500 mt-20">
+        <div className="flex justify-center items-center md:animate-bounce duration-500 mt-0 md:mt-20">
           <Link to="About" smooth duration={500}>
             <img src="/down-arrow.png" alt="" className="h-28 hover:scale-110 duration-300 cursor-pointer" />
           </Link>
