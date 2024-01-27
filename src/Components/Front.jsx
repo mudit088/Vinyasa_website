@@ -50,7 +50,7 @@ const Front = () => {
           </ul>
         )}
 
-        <div className="flex justify-center items-center font-semibold font-serif text-white m-10 md:m-0 pt-44 md:pt-36 md:text-4xl duration-500">
+        <div className="flex justify-center items-center font-semibold font-serif text-white m-10 md:m-0 pt-16 md:pt-36 md:text-4xl duration-500">
           <TypeAnimation
             sequence={[
               'Embark on a journey of creative exploration.',
