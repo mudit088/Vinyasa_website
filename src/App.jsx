@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Front from './Components/Front'
 import About from './Components/About'
+import Timeline from './Components/Timeline'
 // import Particle from './Components/Particle'
 
 
@@ -15,6 +16,7 @@ function App() {
      {/* <Particle/> */}
       <Front/>
       <About/>
+      <Timeline/>
     </div>
   )
 }
