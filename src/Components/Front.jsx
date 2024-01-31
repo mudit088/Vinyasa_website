@@ -7,7 +7,7 @@ const Front = () => {
   const [Nav, setNav] = useState(false);
   const links = [
     { id: 1, link: 'About' },
-    { id: 2, link: 'Events & Schedule' },
+    { id: 2, link: 'Timeline' },
     // { id: 3, link: 'Vinyasa Global' },
     { id: 3, link: 'Team' },
     { id: 4, link: 'Community' },
