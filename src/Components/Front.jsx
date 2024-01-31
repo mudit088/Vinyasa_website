@@ -34,14 +34,14 @@ const Front = () => {
         </ul>
         </div>
 
-        <div onClick={() => setNav(!Nav)} className="cursor-pointer pl-56 p-4 pt-10 z-10 text-gray-500 md:hidden">
+        <div onClick={() => setNav(!Nav)} className="cursor-pointer  ml-56 m-4 mt-10 z-10 text-gray-500 md:hidden">
           {Nav ? <FaTimes size={50} /> : <FaBars size={50} />}
         </div>
 
         {Nav && (
-          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+          <ul className="flex flex-col duration-300 justify-center  items-center scroll-m-0 top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
             {links.map(({ id, link }) => (
-              <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
+              <li key={id} className="px-4 cursor-pointer duration-500 capitalize py-6 text-2xl">
                 <Link onClick={() => setNav(!Nav)} to={link} smooth duration={500}>
                   {link}
                 </Link>
@@ -68,7 +68,7 @@ const Front = () => {
           />
         </div>
 
-        <div className="flex justify-center items-center md:mt-20 md:animate-[wiggle_1s_ease-in-out_infinite]">
+        <div className="sm:flex sm:justify-center hidden items-center md:mt-20 md:animate-[wiggle_1s_ease-in-out_infinite]">
           <button className="text-black p-3 pr-8 pl-8 md:p-6 md:pr-20 md:pl-20 text-2xl md:text-3xl font-bold rounded-xl hover:scale-110 duration-300 bg-white m-8 mt-12">
             Start your Journey
           </button>
