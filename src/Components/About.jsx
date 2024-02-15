@@ -10,7 +10,7 @@ const About = () => {
       </h1>
     </div>
     <div className=' md:m-0 flex justify-center items-center'>
-    <section className='  rounded-2xl shadow-2xl shadow-white '>
+    <section className='  rounded-2xl shadow-xl shadow-white '>
     <p className='text-sm md:text-2xl p-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, veritatis quia tenetur error porro animi illum veniam recusandae. Cumque a explicabo maiores, hic recusandae blanditiis facere ratione architecto, fugiat molestiae magni? Soluta pariatur quibusdam corrupti aperiam suscipit, delectus rerum commodi quo illo harum nisi modi necessitatibus. Labore voluptatem voluptatibus commodi doloremque earum ipsum, veritatis inventore magni corrupti atque, laboriosam dolorum laudantium ipsam quisquam quis debitis. Fuga voluptates facilis mollitia fugiat nobis? Reiciendis, debitis incidunt perspiciatis unde est explicabo distinctio adipisci dolor error! Cumque laborum, inventore non placeat voluptatem voluptate animi sunt totam illo deserunt, aliquid facere fugit quos assumenda optio.</p>
     </section>
     </div>

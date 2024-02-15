@@ -31,7 +31,7 @@ function Timeline() {
       defaults: {
         duration: 0.5,
         autoAlpha: 1,
-        fill: "white",
+        fill: "yellow",
         scale: 1.5,
         transformOrigin: "center",
         ease: "elastic(1.5, 1)",
@@ -176,9 +176,10 @@ function TimelineEvent({
         <path
           id="timeline-line"
           d={d}
-          stroke="white"
+          stroke="blue"
           strokeWidth="10"
           strokeLinecap="round"
+          duration="1.5" 
         />
       </>
     );
