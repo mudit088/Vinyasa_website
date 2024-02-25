@@ -34,7 +34,7 @@ const Footer = () => {
                 <li>
                     <button className=''>
                     
-                    <a href="https://www.instagram.com/vinyasacsd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <a href="https://github.com/mudit088/Vinyasa_website.git">
                     <img src="/github (1).png" alt="" className='h-8' />
                     </a>
                     </button>
