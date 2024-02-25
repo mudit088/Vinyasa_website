@@ -18,7 +18,7 @@ const Team = () => {
         <h1 className=" font-display text-zinc-300 text-center  text-4xl font-extrabold leading-none  tracking-tight md:text-5xl  lg:text-8xl lg:mb-36">
        Team
       </h1>
-      <p className='text-white text-3xl pl-32 pt-10 sm:pl-36 font-semibold'>
+      <p className='text-white text-3xl pl-28 pt-10 sm:pl-36 font-semibold'>
         Leads
       </p>
       </div>
