@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='bg-gray-900 p-5'>
         <div className='flex flex-col sm:flex-row justify-between items-center gap-10'>
             <div className=''>
-                <img src="public/LOGO_Vinyasa.png" alt="" className='h-24 sm:ml-36' />
+                <img src="/LOGO_Vinyasa.png" alt="" className='h-24 sm:ml-36' />
             </div>
             <div className='flex gap-8 sm:mr-36'> 
             <ul>
