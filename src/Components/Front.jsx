@@ -10,7 +10,7 @@ const Front = () => {
     { id: 2, link: 'Timeline' },
     // { id: 3, link: 'Vinyasa Global' },
     { id: 3, link: 'Team' },
-    { id: 4, link: 'Community' },
+    // { id: 4, link: 'Community' },
   ];
 
   return (
@@ -21,7 +21,7 @@ const Front = () => {
 
       <div className="absolute top-0 w-full h-screen flex flex-col  items-center text-white ">
         <div className='flex float-left justify-start pr-96 '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-40  absolute md:relative" />
+        <img src="/IMG_4259 2.png" alt="Logo" className="h-32  absolute md:relative" />
 
         <ul className="hidden md:flex pl-64  items-center">
           {links.map(({ id, link }) => (
@@ -50,7 +50,7 @@ const Front = () => {
           </ul>
         )}
 
-        <div className="flex justify-center items-center font-semibold font-serif text-white m-10 md:m-0 pt-16 md:pt-36 md:text-4xl duration-500">
+        <div className="flex justify-center items-center font-semibold font-serif text-white m-10 md:m-0 pt-16 md:pt-36 md:text-3xl duration-500">
           <TypeAnimation
             sequence={[
               'Embark on a journey of creative exploration.',
@@ -69,7 +69,7 @@ const Front = () => {
         </div>
 
         <div className="sm:flex sm:justify-center hidden items-center md:mt-20 md:animate-[wiggle_1s_ease-in-out_infinite]">
-          <button className="text-black p-3 pr-8 pl-8 md:p-6 md:pr-20 md:pl-20 text-2xl md:text-3xl font-bold rounded-xl hover:scale-110 duration-300 bg-white m-8 mt-12">
+          <button className="text-black p-3 pr-8 pl-8 md:p-6 md:pr-20 md:pl-20 text-2xl md:text-3xl font-bold rounded-xl cursor-default hover:scale-110 duration-300 bg-white m-8 mt-12">
             Start your Journey
           </button>
         </div>

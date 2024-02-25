@@ -176,7 +176,7 @@ function TimelineEvent({
         <path
           id="timeline-line"
           d={d}
-          stroke="blue"
+          stroke="white"
           strokeWidth="10"
           strokeLinecap="round"
           duration="1.5" 
