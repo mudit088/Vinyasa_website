@@ -13,12 +13,12 @@ const Team = () => {
       }
     }
   return (
-    <div name="Team" className="items-center justify-center bg-black  duration-500 h-full w-full ">
+    <div name="Team" className="items-center justify-center bg-black  duration-500 h-full w-full p-4 pb-12">
         <div className='p-10 sm:pt-36'>
         <h1 className=" font-display text-zinc-300 text-center  text-4xl font-extrabold leading-none  tracking-tight md:text-5xl  lg:text-8xl lg:mb-36">
        Team
       </h1>
-      <p className='text-white text-3xl pl-20 pt-10 sm:pl-36 font-semibold'>
+      <p className='text-white text-3xl pl-20 pt-10 sm:pl-28 sm:pb-10 font-semibold'>
       Coordinators
       </p>
       </div>
@@ -244,7 +244,7 @@ const Team = () => {
 
       
       <div>
-      <p className='text-white text-3xl pl-36 font-semibold p-8 pt-32 '>
+      <p className='text-white text-3xl pl-36 font-semibold p-8 pt-20 '>
        Co-Leads
       </p>
       </div>
