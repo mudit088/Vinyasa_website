@@ -19,7 +19,7 @@ const Team = () => {
        Team
       </h1>
       <p className='text-white text-3xl pl-20 pt-10 sm:pl-36 font-semibold'>
-      coordinators
+      Coordinators
       </p>
       </div>
       <div className='flex flex-col sm:flex-row items-center justify-center  gap-12'>
