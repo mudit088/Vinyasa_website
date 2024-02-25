@@ -21,7 +21,7 @@ const Front = () => {
 
       <div className="absolute top-0 w-full h-screen flex flex-col  items-center text-white ">
         <div className='flex float-left justify-start pr-96 '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-32  absolute md:relative" />
+        <img src="/LOGO_Vinyasa.png" alt="Logo" className="h-32  absolute md:relative" />
 
         <ul className="hidden md:flex pl-64  items-center">
           {links.map(({ id, link }) => (

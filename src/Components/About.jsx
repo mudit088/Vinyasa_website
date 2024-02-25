@@ -11,7 +11,13 @@ const About = () => {
     </div>
     <div className=' md:m-0 flex justify-center items-center'>
     <section className='  rounded-2xl shadow-xl shadow-white '>
-    <p className='text-sm md:text-2xl p-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, veritatis quia tenetur error porro animi illum veniam recusandae. Cumque a explicabo maiores, hic recusandae blanditiis facere ratione architecto, fugiat molestiae magni? Soluta pariatur quibusdam corrupti aperiam suscipit, delectus rerum commodi quo illo harum nisi modi necessitatibus. Labore voluptatem voluptatibus commodi doloremque earum ipsum, veritatis inventore magni corrupti atque, laboriosam dolorum laudantium ipsam quisquam quis debitis. Fuga voluptates facilis mollitia fugiat nobis? Reiciendis, debitis incidunt perspiciatis unde est explicabo distinctio adipisci dolor error! Cumque laborum, inventore non placeat voluptatem voluptate animi sunt totam illo deserunt, aliquid facere fugit quos assumenda optio.</p>
+    <p className='text-sm md:text-2xl p-8'>Unlocking creativity and fostering connections lie at the heart of the Techno-Cultural Club at DSATM's Computer Science & Design Department. Our club serves as a vibrant hub where innovation meets expression, creating a unique space for students to explore the intersection of technology and culture. 
+    <p className='pt-6'>
+    The Techno-Cultural Club is dedicated to cultivating a dynamic environment that sparks creativity, promotes collaboration, and celebrates the fusion of technology and culture. Through a diverse range of activities and events, we aim to inspire our members to think beyond boundaries, embrace diversity, and contribute meaningfully to the world.
+    </p>
+    
+    
+    </p>
     </section>
     </div>
     <br />

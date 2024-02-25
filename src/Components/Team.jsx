@@ -19,7 +19,7 @@ const Team = () => {
        Team
       </h1>
       <p className='text-white text-3xl pl-20 pt-10 sm:pl-36 font-semibold'>
-        Leads
+      coordinators
       </p>
       </div>
       <div className='flex flex-col sm:flex-row items-center justify-center  gap-12'>
@@ -97,37 +97,6 @@ const Team = () => {
         >
           <div
             className="flip-card-front w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
-            style={{ backgroundImage: `url(/Mudit-img-removebg-preview.png)` }}
-          >
-            <h1 className="text-2xl font-bold text-black">Mudit</h1>
-            <p className='font-semibold text-black'>Web Development</p>
-          </div>
-
-          <div
-            className="flip-card-back w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg bg-gradient-to-r from-purple-500 to-black p-4"
-            // style={{ backgroundImage: `url(/Mudit-img-removebg-preview.png)` }}
-          >
-             <h1 className="text-2xl font-bold text-white flex items-center justify-center pt-5">Web Development</h1>
-          <p className='flex items-center justify-center pt-12 text-xl text-white font-semibold'> Crafting digital experiences that seamlessly connect, innovate, and empower the online world.</p>
-          </div>
-        </motion.div>
-      </div>
-
-
-
-      <div
-        className="flip-card w-[270px] h-[350px] rounded-md cursor-pointer"
-        onClick={handleFlip}
-      >
-        <motion.div
-          className="flip-card-inner w-[100%] h-[100%]"
-          initial={false}
-          animate={{ rotateY: isFlipped ? 180 : 360 }}
-          transition={{ duration: 0.6, animationDirection: "normal" }}
-          onAnimationComplete={() => setIsAnimating(false)}
-        >
-          <div
-            className="flip-card-front w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
             style={{ backgroundImage: `url(/suhas.jpg)` }}
           >
             <h1 className="text-2xl font-bold text-yellow-400 ">Suhas</h1>
@@ -143,8 +112,8 @@ const Team = () => {
           </div>
         </motion.div>
       </div>
-      </div>
-      <div className='flex flex-col sm:flex-row items-center justify-center  gap-12 mt-8'>
+      
+      
 
       <div
         className="flip-card w-[270px] h-[350px] rounded-md cursor-pointer"
@@ -175,10 +144,11 @@ const Team = () => {
         </motion.div>
       </div>
       </div>
+     
          
       
       <p className='text-white text-3xl pl-36 font-semibold p-8 pt-32 '>
-       Co-Leads
+       Leads
       </p>
 
       <div className='mt-8 flex flex-col sm:flex-row items-center justify-center pb-20 gap-12'>
@@ -225,6 +195,36 @@ const Team = () => {
         >
           <div
             className="flip-card-front w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
+            style={{ backgroundImage: `url(/Mudit-img-removebg-preview.png)` }}
+          >
+            <h1 className="text-2xl font-bold text-black">Mudit</h1>
+            <p className='font-semibold text-black'>Web Development</p>
+          </div>
+
+          <div
+            className="flip-card-back w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg bg-gradient-to-r from-purple-500 to-black p-4"
+            // style={{ backgroundImage: `url(/Mudit-img-removebg-preview.png)` }}
+          >
+             <h1 className="text-2xl font-bold text-white flex items-center justify-center pt-5">Web Development</h1>
+          <p className='flex items-center justify-center pt-12 text-xl text-white font-semibold'> Crafting digital experiences that seamlessly connect, innovate, and empower the online world.</p>
+          </div>
+        </motion.div>
+      </div>
+
+
+      <div
+        className="flip-card w-[270px] h-[350px] rounded-md cursor-pointer"
+        onClick={handleFlip}
+      >
+        <motion.div
+          className="flip-card-inner w-[100%] h-[100%]"
+          initial={false}
+          animate={{ rotateY: isFlipped ? 180 : 360 }}
+          transition={{ duration: 0.6, animationDirection: "normal" }}
+          onAnimationComplete={() => setIsAnimating(false)}
+        >
+          <div
+            className="flip-card-front w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
             style={{ backgroundImage: `url(/ankit.jpg)` }}
           >
             <h1 className="text-2xl font-bold">Ankit</h1>
@@ -240,7 +240,16 @@ const Team = () => {
           </div>
         </motion.div>
       </div>
+      </div>
 
+      
+      <div>
+      <p className='text-white text-3xl pl-36 font-semibold p-8 pt-32 '>
+       Co-Leads
+      </p>
+      </div>
+      <div className='flex flex-col sm:flex-row items-center justify-center pb:10  gap-12'>
+       
       <div
         className="flip-card w-[270px] h-[350px] rounded-md cursor-pointer"
         onClick={handleFlip}
@@ -302,6 +311,7 @@ const Team = () => {
         </motion.div>
       </div>
       </div>
+      
     
     </div>
   
